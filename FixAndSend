@@ -3,6 +3,7 @@
 -- The users in this forum are something else. They act like they don't use AI but few of their posts clearly do 👍.
 -- I've used AI myself to get recommendations and fix issues. For this code, I needed AI to solve a fetching problem from bing.
 
+
 local url1 = game:HttpGet('https://www.bing.com/translator')
 
 IG = url1:match('IG:"([%w%d]+)"')
