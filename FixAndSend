@@ -1,4 +1,4 @@
--- reminder this is for me btw, add operators to support executor http requests, add key event listener to turn off this whole thing or turn it on. Just can't do it now it's literally 3 am.
+-- reminder this is for me btw, add operators to support other executor http requests, add key event listener to turn off this whole thing or turn it on. Just can't do it now it's literally 3 am.
 
 local url1 = game:HttpGet('https://www.bing.com/translator')
 
