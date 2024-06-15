@@ -42,7 +42,7 @@ else
     chatGui = game.CoreGui.ExperienceChat.appLayout.chatInputBar.Background.Container.TextContainer.TextBoxContainer.TextBox
 end
 
-chatGui.FocusLost:Connect(function(en) -- This part is useful if you're looking to replace messages before sending code.
+chatGui.FocusLost:Connect(function(en) -- This whole property is useful if you're looking to replace messages before sending a message.
     if en then
         local message = chatGui.Text
         chatGui.Text = ""
