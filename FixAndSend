@@ -1,5 +1,8 @@
 -- reminder this is for me btw, add operators to support other executor http requests, add key event listener to turn off this whole thing or turn it on. Just can't do it now it's literally 3 am.
 
+-- The users in this forum are something else. They act like they don't use AI but few of their posts clearly do 👍.
+-- I've used AI myself to get recommendations and fix issues. For this code, I needed AI to solve a fetching problem from bing.
+
 local url1 = game:HttpGet('https://www.bing.com/translator')
 
 IG = url1:match('IG:"([%w%d]+)"')
@@ -38,7 +41,7 @@ else
     chatGui = game.CoreGui.ExperienceChat.appLayout.chatInputBar.Background.Container.TextContainer.TextBoxContainer.TextBox
 end
 
-chatGui.FocusLost:Connect(function(en)
+chatGui.FocusLost:Connect(function(en) -- This part is useful if you're looking to replace messages before sending code.
     if en then
         local message = chatGui.Text
         chatGui.Text = ""
