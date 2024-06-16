@@ -16,7 +16,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(input)
 
 		else
 			enabled = true
-			game.StarterGui:SetCore("SendNotification",{
+		game.StarterGui:SetCore("SendNotification",{
 				Title = "ON"; 
 				Text = "";
 				Duration = 5;
@@ -24,7 +24,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(input)
 		end
 	end
 end)
-game.tarterGui:SetCore("SendNotification",{
+game.StarterGui:SetCore("SendNotification",{
 	Title = "Right Control to turn off or on"; 
 	Text = "";
 	Duration = 5;
